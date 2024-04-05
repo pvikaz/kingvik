@@ -135,14 +135,14 @@ Get from https://my.telegram.org</i>.
         return await editMessage(sess_msg ,f"<b>Sign In Error:</b> {str(e)}")
     try:
         session_string = await pyro_client.export_session_string()
-        await pyro_client.send_message("self", f"⌬ <b><u>Pyrogram Session Generated :</u></b>\n\n<code>{session_string}</code>\n\n<b>Via <a href='https://github.com/weebzone/WZML-X'>WZML-X</a> [ @WZML_X ]</b>", disable_web_page_preview=True)
+        await pyro_client.send_message("self", f"⌬ <b><u>Pyrogram Session Generated :</u></b>\n\n<code>{session_string}</code>\n\n<b>Via <a href='https://github.com/weebzone/WZML-X'>TELLYCLOUD_BOTS</a> [ @TELLYCLOUD_BOTS ]</b>", disable_web_page_preview=True)
         await pyro_client.disconnect()
         await editMessage(sess_msg, "⌬ <u><i><b>Pyrogram String Session Generator</b></i></u> \n\n➲ <b>String Session is Successfully Generated ( Saved Messages ).</b>")
     except Exception as e:
         return await editMessage(sess_msg ,f"<b>Export Session Error:</b> {str(e)}")
     try:
-        await aioremove(f'WZML-X-{message.from_user.id}.session')
-        await aioremove(f'WZML-X-{message.from_user.id}.session-journal')
+        await aioremove(f'TELLYCLOUD_BOTS-{message.from_user.id}.session')
+        await aioremove(f'TELLYCLOUD_BOTS-{message.from_user.id}.session-journal')
     except Exception:
         pass
     
