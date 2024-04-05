@@ -2,10 +2,10 @@
 class WZMLStyle:
     # ----------------------
     # async def start(client, message) ---> __main__.py
-    ST_BN1_NAME = 'Repo'
-    ST_BN1_URL = 'https://www.github.com/weebzone/WZML-X'
+    ST_BN1_NAME = 'Devloper'
+    ST_BN1_URL = 'https://t.me/TELLYHUBSUPPORTS'
     ST_BN2_NAME = 'Updates'
-    ST_BN2_URL = 'https://t.me/WZML_X'
+    ST_BN2_URL = 'https://t.me/TELLYCLOUD_BOTS'
     ST_MSG = '''<i>This bot can mirror all your links|files|torrents to Google Drive or any rclone cloud or to telegram or to ddl servers.</i>
 <b>Type {help_command} to get a list of available commands</b>'''
     ST_BOTPM = '''<i>Now, This bot will send all your files and links here. Start Using ...</i>'''
@@ -206,7 +206,7 @@ class WZMLStyle:
     CANCEL =         '\n┖ {Cancel}\n\n'
 
     ####------FOOTER--------
-    FOOTER = '⌬ <b><i>Bot Stats</i></b>\n'
+    FOOTER = '⌬ <b><i>@TELLYCLOUD_BOTS Stats</i></b>\n'
     TASKS =  '┠ <b>Tasks:</b> {Tasks}\n'
     BOT_TASKS = '┠ <b>Tasks:</b> {Tasks}/{Ttask} | <b>AVL:</b> {Free}\n'
     Cpu = '┠ <b>CPU:</b> {cpu}% | '
@@ -245,9 +245,11 @@ class WZMLStyle:
     # async def mirror_status(_, message): ----> status.py
     NO_ACTIVE_DL = '''<i>No Active Downloads!</i>
     
-⌬ <b><i>Bot Stats</i></b>
-┠ <b>CPU:</b> {cpu}% | <b>F:</b> {free} [{free_p}%]
-┖ <b>RAM:</b> {ram} | <b>UPTIME:</b> {uptime}
+⌬ <b><i>@TELLYCLOUD_BOTS Stats</i></b>
+┠ <b>CPU:</b> {cpu}% 
+┠ <b>F:</b> {free} [{free_p}%]
+┠ <b>RAM:</b> {ram}
+┖ <b>UPTIME:</b> {uptime}
     '''
     # ---------------------
 
