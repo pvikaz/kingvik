@@ -739,7 +739,7 @@ async def set_commands(client):
             ),
             BotCommand(
                 BotCommands.HelpCommand,
-                'Get detailed help about the WZML-X Bot',
+                'Get detailed help about the TELLYCLOUD_BOTS',
             ),
             BotCommand(
                 BotCommands.UserSetCommand[0],
