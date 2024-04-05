@@ -42,10 +42,10 @@ default_values = {'AUTO_DELETE_MESSAGE_DURATION': 30,
                   'BOT_THEME': 'minimal',
                   'BOT_LANG': 'en',
                   'IMG_PAGE': 1,
-                  'AUTHOR_NAME': 'WZML-X',
-                  'AUTHOR_URL': 'https://t.me/WZML_X',
+                  'AUTHOR_NAME': 'TELLYCLOUD_BOTS',
+                  'AUTHOR_URL': 'https://t.me/TELLYCLOUD_BOTS',
                   'TITLE_NAME': 'WZ Mirror/Leech X',
-                  'GD_INFO': 'Uploaded by WZML-X',
+                  'GD_INFO': 'Uploaded by TELLYCLOUD_BOTS',
                   }
 bool_vars = ['AS_DOCUMENT', 'BOT_PM', 'STOP_DUPLICATE', 'SET_COMMANDS', 'SAVE_MSG', 'SHOW_MEDIAINFO', 'SOURCE_LINK', 'SAFE_MODE', 'SHOW_EXTRA_CMDS',
              'IS_TEAM_DRIVE', 'USE_SERVICE_ACCOUNTS', 'WEB_PINCODE', 'EQUAL_SPLITS', 'DISABLE_DRIVE_LINK', 'DELETE_LINKS', 'CLEAN_LOG_MSG', 'USER_TD_MODE', 
@@ -442,23 +442,23 @@ async def load_config():
 
     AUTHOR_NAME = environ.get('AUTHOR_NAME', '')
     if len(AUTHOR_NAME) == 0:
-        AUTHOR_NAME = 'WZML-X'
+        AUTHOR_NAME = 'TELLYCLOUD_BOTS'
 
     AUTHOR_URL = environ.get('AUTHOR_URL', '')
     if len(AUTHOR_URL) == 0:
-        AUTHOR_URL = 'https://t.me/WZML_X'
+        AUTHOR_URL = 'https://t.me/TELLYCLOUD_BOTS'
 
     TITLE_NAME = environ.get('TITLE_NAME', '')
     if len(TITLE_NAME) == 0:
-        TITLE_NAME = 'WeebZone-X'
+        TITLE_NAME = 'TELLYCLOUD_BOTS'
         
     COVER_IMAGE = environ.get('COVER_IMAGE', '')
     if len(COVER_IMAGE) == 0:
-        COVER_IMAGE = 'https://graph.org/file/60f9f8bcb97d27f76f5c0.jpg'
+        COVER_IMAGE = 'https://graph.org/file/b39a52cd50563cb23df8a.jpg'
 
     GD_INFO = environ.get('GD_INFO', '')
     if len(GD_INFO) == 0:
-        GD_INFO = 'Uploaded by WZML-X'
+        GD_INFO = 'Uploaded by TELLYCLOUD_BOTS'
 
     SAVE_MSG = environ.get('SAVE_MSG', '')
     SAVE_MSG = SAVE_MSG.lower() == 'true'
