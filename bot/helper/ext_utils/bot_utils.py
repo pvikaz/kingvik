@@ -139,12 +139,12 @@ def handleIndex(index, dic):
 def get_progress_bar_string(pct):
     pct = float(str(pct).strip('%'))
     p = min(max(pct, 0), 100)
-    cFull = int(p // 8)
-    cPart = int(p % 8 - 1)
+    cFull = int(p // 7)
+    cPart = int(p % 7 - 1)
     p_str = '■' * cFull
     if cPart >= 0:
-        p_str += ['▤', '▥', '▦', '▧', '▨', '▩', '■'][cPart]
-    p_str += '□' * (12 - cFull)
+        p_str += ['◰', '◳', '◲', '◱', '▣', '■'][cPart]
+    p_str += '▢' * (12 - cFull)
     return f"[{p_str}]"
 
 
@@ -201,7 +201,8 @@ class EngineStatus:
 
 
 def get_readable_message():
-    msg = ""
+    msg = f'<a href="https://t.me/TELLYCLOUD_Bots"><b>❖𝐓𝐄𝐋𝐋𝐘𝐂𝐋𝐎𝐔𝐃 𝐁𝐎𝐓𝐒™❖</b></a>'
+    msg += f'\n\n'
     button = None
     STATUS_LIMIT = config_dict['STATUS_LIMIT']
     tasks = len(download_dict)
