@@ -3,7 +3,7 @@ from pyrogram.handlers import MessageHandler, CallbackQueryHandler
 from pyrogram.filters import command, regex, user
 from asyncio import sleep, wait_for, Event, wrap_future
 from aiohttp import ClientSession
-from aiofiles.os import path as aiopath
+from aiofiles.os mport path as aiopath
 from yt_dlp import YoutubeDL
 from functools import partial
 from time import time
