@@ -171,7 +171,9 @@ class WZMLStyle:
     SCREENSHOTS =     '🖼 ScreenShots'
     # ---------------------
 
-    # 📬
+    # def get_readable_message(): ---> bot_utilis.py
+    ####--------OVERALL MSG HEADER----------
+    STATUS_NAME =       '📋<b><i>{Name}</i></b>'
 
     #####---------PROGRESSIVE STATUS-------
     BAR =               '\n┃ {Bar}'
