@@ -2,19 +2,19 @@
 class WZMLStyle:
     # ----------------------
     # async def start(client, message) ---> __main__.py
-    ST_BN1_NAME = '📁Repo'
+    ST_BN1_NAME = '📁 Repo 📁'
     ST_BN1_URL = 'https://t.me/Mike_Tyson_Mirror_Leech'
-    ST_BN2_NAME = '📢Updates'
+    ST_BN2_NAME = '📢 Updates 📢'
     ST_BN2_URL = 'https://t.me/Mike_Tyson_Mirror_Leech'
     ST_MSG = '''<i>This bot can mirror all your links|files|torrents to Google Drive or any rclone cloud or to telegram or to ddl servers.</i>
 <b>Type {help_command} to get a list of available commands</b>'''
-    ST_BOTPM = '''<i>Now, This bot will send all your files and links here. Start Using ...</i>'''
-    ST_UNAUTH = '''<i>You Are not authorized user! Deploy your own MIKE TYSON Mirror-Leech bot</i>'''
-    OWN_TOKEN_GENERATE = '''<b>Temporary Token is not yours!</b>\n\n<i>Kindly generate your own.</i>'''
-    USED_TOKEN = '''<b>Temporary Token already used!</b>\n\n<i>Kindly generate a new one.</i>'''
-    LOGGED_PASSWORD = '''<b>Bot Already Logged In via Password</b>\n\n<i>No Need to Accept Temp Tokens.</i>'''
-    ACTIVATE_BUTTON = 'Activate Temporary Token'
-    TOKEN_MSG = '''<b><u>Generated Temporary Login Token!</u></b>
+    ST_BOTPM = '''<i>📥 Now, This bot will send all your files and links here. Start Using ...</i>'''
+    ST_UNAUTH = '''<i>⛔️ You Are not authorized user! Deploy your own MIKE TYSON Mirror-Leech bot</i>'''
+    OWN_TOKEN_GENERATE = '''<b>❌ Temporary Token is not yours!</b>\n\n<i>Kindly generate your own.</i>'''
+    USED_TOKEN = '''<b>❌ Temporary Token already used!</b>\n\n<i>Kindly generate a new one.</i>'''
+    LOGGED_PASSWORD = '''<b>🔒 Bot Already Logged In via Password</b>\n\n<i>No Need to Accept Temp Tokens.</i>'''
+    ACTIVATE_BUTTON = '🔑 Activate Temporary Token'
+    TOKEN_MSG = '''<b><u>🔒 Generated Temporary Login Token!</u></b>
 <b>Temp Token:</b> <code>{token}</code>
 <b>Validity:</b> {validity}'''
     # ---------------------
@@ -22,10 +22,10 @@ class WZMLStyle:
     ACTIVATED = '✅️ Activated ✅'
     # ---------------------
     # async def login(_, message): --> __main__.py
-    LOGGED_IN = '<b>Already Bot Login In!</b>'
-    INVALID_PASS = '<b>Invalid Password!</b>\n\nKindly put the correct Password .'
-    PASS_LOGGED = '<b>Bot Permanent Login Successfully!</b>'
-    LOGIN_USED = '<b>Bot Login Usage :</b>\n\n<code>/cmd [password]</code>'
+    LOGGED_IN = '🔓 <b>Already Bot Login In!</b>'
+    INVALID_PASS = '❌ <b>Invalid Password!</b>\n\nKindly put the correct Password .'
+    PASS_LOGGED = '🔑 <b>Bot Permanent Login Successfully!</b>'
+    LOGIN_USED = '🔐 <b>Bot Login Usage :</b>\n\n<code>/cmd [password]</code>'
     # ---------------------
     # async def log(_, message): ---> __main__.py
     LOG_DISPLAY_BT = '📑 Log Display'
@@ -37,11 +37,11 @@ class WZMLStyle:
     MICS_BT = 'Mics'
     O_S_BT = 'Owner & Sudos'
     CLOSE_BT = 'Close'
-    HELP_HEADER = "㊂ <b><i>Help Guide Menu!</i></b>\n\n<b>NOTE: <i>Click on any CMD to see more minor detalis.</i></b>"
+    HELP_HEADER = "㊂ <b><i>Help Guide Menu!</i></b>\n\n<b>📚 NOTE: <i>Click on any CMD to see more minor detalis.</i></b>"
 
     # async def stats(client, message):
-    BOT_STATS = '''⌬ <b><i>BOT STATISTICS :</i></b>
-┖ <b>Bot Uptime :</b> {bot_uptime}
+    BOT_STATS = '''⌬⚙️ <b><i>BOT STATISTICS :</i></b>
+┖ <b>Bot Uptime :</b>⏳ {bot_uptime}
 
 ┎ <b><i>RAM ( MEMORY ) :</i></b>
 ┃🧠 {ram_bar} {ram}%
@@ -104,7 +104,7 @@ class WZMLStyle:
     # ---------------------
 
     # async def restart(client, message): ---> __main__.py
-    RESTARTING = '🔄<i>Restarting...</i>'
+    RESTARTING = '🔄 <i>Restarting...</i>'
     # ---------------------
 
     # async def restart_notification(): ---> __main__.py
@@ -117,12 +117,12 @@ class WZMLStyle:
     # ---------------------
 
     # async def ping(client, message): ---> __main__.py
-    PING = '🏓<i>Starting Ping..</i>'
+    PING = '🏓 <i>Starting Ping..</i>'
     PING_VALUE = '<b>Pong</b>\n<code>{value} ms..</code>'
     # ---------------------
 
     # async def onDownloadStart(self): --> tasks_listener.py
-    LINKS_START = """⏳<b><i>Task Started</i></b>
+    LINKS_START = """⏳ <b><i>Task Started</i></b>
 ┠ <b>Mode:</b> {Mode}
 ┖ <b>By:</b> {Tag}\n\n"""
     LINKS_SOURCE = """➲🔗 <b>Source:</b>
@@ -136,7 +136,7 @@ class WZMLStyle:
     L_LOG_START =           "➲🕵️ <b><u>Leech Started :</u></b>\n┃\n┠ <b>User :</b> {mention} ( #ID{uid} )\n┖ <b>Source :</b> <a href='{msg_link}'>Click Here</a>"
 
     # async def onUploadComplete(): ---> tasks_listener.py
-    NAME =                  '📁<b><i>{Name}</i></b>\n┃\n'
+    NAME =                  '📁 <b><i>{Name}</i></b>\n┃\n'
     SIZE =                  '┠💾 <b>Size: </b>{Size}\n'
     ELAPSE =                '┠⏳ <b>Elapsed: </b>{Time}\n'
     MODE =                  '┠🎮 <b>Mode: </b>{Mode}\n'
@@ -173,7 +173,7 @@ class WZMLStyle:
 
     # def get_readable_message(): ---> bot_utilis.py
     ####--------OVERALL MSG HEADER----------
-    STATUS_NAME =       '📋<b><i>{Name}</i></b>'
+    STATUS_NAME =       '📋 <b><i>{Name}</i></b>'
 
     #####---------PROGRESSIVE STATUS-------
     BAR =               '\n┃ {Bar}'
@@ -227,8 +227,8 @@ class WZMLStyle:
     # ---------------------
 
     # async def countNode(_, message): ----> gd_count.py
-    COUNT_MSG = '🔢<b>Counting:</b> <code>{LINK}</code>'
-    COUNT_NAME = '📁<b><i>{COUNT_NAME}</i></b>\n┃\n'
+    COUNT_MSG = '🔢 <b>Counting:</b> <code>{LINK}</code>'
+    COUNT_NAME = '📁 <b><i>{COUNT_NAME}</i></b>\n┃\n'
     COUNT_SIZE = '┠💾 <b>Size: </b>{COUNT_SIZE}\n'
     COUNT_TYPE = '┠🔗 <b>Type: </b>{COUNT_TYPE}\n'
     COUNT_SUB =  '┠📁 <b>SubFolders: </b>{COUNT_SUB}\n'
