@@ -2,9 +2,9 @@
 class WZMLStyle:
     # ----------------------
     # async def start(client, message) ---> __main__.py
-    ST_BN1_NAME = 'Repo'
+    ST_BN1_NAME = '📁Repo'
     ST_BN1_URL = 'https://t.me/Mike_Tyson_Mirror_Leech'
-    ST_BN2_NAME = 'Updates'
+    ST_BN2_NAME = '📢Updates'
     ST_BN2_URL = 'https://t.me/Mike_Tyson_Mirror_Leech'
     ST_MSG = '''<i>This bot can mirror all your links|files|torrents to Google Drive or any rclone cloud or to telegram or to ddl servers.</i>
 <b>Type {help_command} to get a list of available commands</b>'''
@@ -44,15 +44,15 @@ class WZMLStyle:
 ┖ <b>Bot Uptime :</b> {bot_uptime}
 
 ┎ <b><i>RAM ( MEMORY ) :</i></b>
-┃ {ram_bar} {ram}%
+┃🧠 {ram_bar} {ram}%
 ┖ <b>U :</b> {ram_u} | <b>F :</b> {ram_f} | <b>T :</b> {ram_t}
 
 ┎ <b><i>SWAP MEMORY :</i></b>
-┃ {swap_bar} {swap}%
+┃💫 {swap_bar} {swap}%
 ┖ <b>U :</b> {swap_u} | <b>F :</b> {swap_f} | <b>T :</b> {swap_t}
 
 ┎ <b><i>DISK :</i></b>
-┃ {disk_bar} {disk}%
+┃💽 {disk_bar} {disk}%
 ┃ <b>Total Disk Read :</b> {disk_read}
 ┃ <b>Total Disk Write :</b> {disk_write}
 ┖ <b>U :</b> {disk_u} | <b>F :</b> {disk_f} | <b>T :</b> {disk_t}
