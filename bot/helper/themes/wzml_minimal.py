@@ -177,15 +177,15 @@ class WZMLStyle:
 
     #####---------PROGRESSIVE STATUS-------
     BAR =               '\n┃ {Bar}'
-    PROCESSED =         '\n┠ <b>Processed:</b> {Processed}'
-    STATUS =            '\n┠ <b>Status:</b> <a href="{Url}">{Status}</a>'
-    ETA =                                                ' | <b>ETA:</b> {Eta}'
-    SPEED =             '\n┠ <b>Speed:</b> {Speed}'
-    ELAPSED =                                     ' | <b>Elapsed:</b> {Elapsed}'
-    ENGINE =            '\n┠ <b>Engine:</b> {Engine}'
-    STA_MODE =          '\n┠ <b>Mode:</b> {Mode}'
-    SEEDERS =           '\n┠ <b>Seeders:</b> {Seeders} | '
-    LEECHERS =                                           '<b>Leechers:</b> {Leechers}'
+    PROCESSED =         '\n┠🔄 <b>Processed:</b> {Processed}'
+    STATUS =            '\n┠✨ <b>Status:</b> <a href="{Url}">{Status}</a>'
+    ETA =                                                ' |⏳ <b>ETA:</b> {Eta}'
+    SPEED =             '\n┠⚡ <b>Speed:</b> {Speed}'
+    ELAPSED =                                     ' |⏱️ <b>Elapsed:</b> {Elapsed}'
+    ENGINE =            '\n┠🚀 <b>Engine:</b> {Engine}'
+    STA_MODE =          '\n┠🎮 <b>Mode:</b> {Mode}'
+    SEEDERS =           '\n┠👥 <b>Seeders:</b> {Seeders} | '
+    LEECHERS =                                           '<b>Leechers:</b> {Leechers}🕵️‍♂️'
 
     ####--------SEEDING----------
     SEED_SIZE =      '\n┠ <b>Size: </b>{Size}'
