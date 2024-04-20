@@ -93,7 +93,7 @@ class WZMLStyle:
 
 ⏳ <b>Token Validity :</b><code> {TV} </code>
 ⏰ <b>User Time Limit :</b><code> {UTI} / task </code>
-🏎️ <b>User Parallel Tasks :</b><code> {UT} </code>
+🎭 <b>User Parallel Tasks :</b><code> {UT} </code>
 🏋️‍♂️ <b>Bot Parallel Tasks :</b><code> {BT} </code>
     '''
     # ---------------------
