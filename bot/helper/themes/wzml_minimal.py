@@ -32,7 +32,9 @@ class WZMLStyle:
     WEB_PASTE_BT = '🌐 Web Paste (SB) 🌐'
     # ---------------------
     # async def bot_help(client, message): ---> __main__.py
-    BASIC_BT = '🎭 Users 🎭'
+    BASIC_BT = '♨️ Basic ♨️'
+    USER_BT = '🎭 Users 🎭'
+    MICS_BT = '💫 Mics 💫'
     O_S_BT = '☠ Owner ☠'
     CLOSE_BT = '❌ Close ❌'
     HELP_HEADER = "🏴‍☠️ <b><i>Help Guide Menu!</i></b>\n\n<b>📚 NOTE: <i>Click on below CMD to see more minor detalis.</i></b>"
@@ -156,10 +158,10 @@ class WZMLStyle:
     SAVE_MSG =        '⚡ Save Message ⚡'
     RCLONE_LINK =     '☠ RClone Link ☠'
     DDL_LINK =        '☁️ {Serv} Link ☁️'
-    SOURCE_URL =      '💫 Source Link 💫'
+    SOURCE_URL =      '☠ Source Link ☠'
     INDEX_LINK_F =    '✨ Index Link ✨'
     INDEX_LINK_D =    '✨ Index Link ✨'
-    VIEW_LINK =       '☠ View Link ☠'
+    VIEW_LINK =       '💫 View Link 💫'
     CHECK_PM =        '♨️ View in Bot PM ♨️'
     CHECK_LL =        '🖇 View in Links Log 🖇'
     MEDIAINFO_LINK =  '🏴‍☠️ MediaInfo 🏴‍☠️'
