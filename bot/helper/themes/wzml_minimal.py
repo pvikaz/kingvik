@@ -19,7 +19,7 @@ class WZMLStyle:
 <b>Validity:</b> {validity}'''
     # ---------------------
     # async def token_callback(_, query): ---> __main__.py
-    ACTIVATED = '✅️ Activated ✅'
+    ACTIVATED = '⚡ Activated ⚡'
     # ---------------------
     # async def login(_, message): --> __main__.py
     LOGGED_IN = '🔓 <b>Already Bot Login In!</b>'
@@ -28,8 +28,8 @@ class WZMLStyle:
     LOGIN_USED = '🔐 <b>Bot Login Usage :</b>\n\n<code>/cmd [password]</code>'
     # ---------------------
     # async def log(_, message): ---> __main__.py
-    LOG_DISPLAY_BT = '📑 Log Display'
-    WEB_PASTE_BT = '📨 Web Paste (SB)'
+    LOG_DISPLAY_BT = '📜 Log Display'
+    WEB_PASTE_BT = '🌐 Web Paste (SB)'
     # ---------------------
     # async def bot_help(client, message): ---> __main__.py
     BASIC_BT = 'Basic'
