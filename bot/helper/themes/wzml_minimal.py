@@ -158,7 +158,7 @@ class WZMLStyle:
     M_BOT_MSG =             '➲📬 <b><i>Link(s) have been Sent to Bot PM (Private)</i></b>'
     # ----- BUTTONS -------
     CLOUD_LINK =      '💫 Cloud Link 💫'
-    SAVE_MSG =        '💾 Save Message 💾'
+    SAVE_MSG =        '⚡ Save Message ⚡'
     RCLONE_LINK =     '☠ RClone Link ☠'
     DDL_LINK =        '☁️ {Serv} Link ☁️'
     SOURCE_URL =      '📌 Source Link 📌'
@@ -167,7 +167,7 @@ class WZMLStyle:
     VIEW_LINK =       '⚡ View Link ⚡'
     CHECK_PM =        '♨️ View in Bot PM ♨️'
     CHECK_LL =        '🖇 View in Links Log 🖇'
-    MEDIAINFO_LINK =  '🎬 MediaInfo 🎬'
+    MEDIAINFO_LINK =  '🏴‍☠️ MediaInfo 🏴‍☠️'
     SCREENSHOTS =     '🌟 ScreenShots 🌟'
     # ---------------------
 
