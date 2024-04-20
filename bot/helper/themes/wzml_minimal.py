@@ -193,8 +193,8 @@ class WZMLStyle:
     SEED_ENGINE =    '\n🚀 <b>Engine:</b> {Engine}'
 
     ####--------NON-PROGRESSIVE + NON SEEDING----------
-    STATUS_SIZE =    '\n┠📦 <b>Size: </b>{Size}'
-    NON_ENGINE =     '\n┠🚀 <b>Engine:</b> {Engine}'
+    STATUS_SIZE =    '\n📦 <b>Size: </b>{Size}'
+    NON_ENGINE =     '\n🚀 <b>Engine:</b> {Engine}'
 
     ####--------OVERALL MSG FOOTER----------
     USER =              '\n☃️ <b>User:</b> <code>{User}</code> | '
@@ -204,8 +204,8 @@ class WZMLStyle:
 
     ####------FOOTER--------
     FOOTER = '🌟 <b><i>Bot Stats</i></b>\n'
-    TASKS =  '┠📋 <b>Tasks:</b> {Tasks}\n'
-    BOT_TASKS = '┠📋 <b>Tasks:</b> {Tasks}/{Ttask} | <b>📊 AVL:</b> {Free}\n'
+    TASKS =  '📋 <b>Tasks:</b> {Tasks}\n'
+    BOT_TASKS = '📋 <b>Tasks:</b> {Tasks}/{Ttask} | <b>📊 AVL:</b> {Free}\n'
     Cpu = '💻 <b>CPU:</b> {cpu}%  '
     FREE =                      '| <b>💾 F:</b> {free} [{free_p}%]'
     Ram = '\n🧠 <b>RAM:</b> {ram}%  '
@@ -243,8 +243,8 @@ class WZMLStyle:
     NO_ACTIVE_DL = '''<i>No Active Downloads!</i>
     
 🛡️ <b><i>Bot Stats</i></b>
-┠🧠 <b>CPU:</b> {cpu}%  <b>🚀 F:</b> {free} [{free_p}%]
-┖💾 <b>RAM:</b> {ram}  <b>⏰ UPTIME:</b> {uptime}
+🧠 <b>CPU:</b> {cpu}% | <b>🚀 F:</b> {free} [{free_p}%]
+💾 <b>RAM:</b> {ram} | <b>⏰ UPTIME:</b> {uptime}
     '''
     # ---------------------
 
