@@ -256,7 +256,7 @@ class WZMLStyle:
         
 ┎<b>👤 Name :</b> {NAME} ( <code>{ID}</code> )
 ┠<b>📱 Username :</b> {USERNAME}
-┠<b>🌐 Telegram DC :</b> {DC}
+┠<b>🔍 Telegram DC :</b> {DC}
 ┖<b>🌐 Language :</b> {LANG}
 
 ➲ <u><b>Available Args:</b></u>
@@ -285,7 +285,7 @@ class WZMLStyle:
 
     LEECH = '''㊂ <b><u>Leech Settings for {NAME}</u></b>
 
-┎🔄<b> Daily Leech : </b><code>{DL}</code> per day
+┎📅<b> Daily Leech : </b><code>{DL}</code> per day
 ┠🔖<b> Leech Type :</b> <i>{LTYPE}</i>
 ┠🖼️<b> Custom Thumbnail :</b> <i>{THUMB}</i>
 ┠📦<b> Leech Split Size :</b> <code>{SPLIT_SIZE}</code>
@@ -293,6 +293,6 @@ class WZMLStyle:
 ┠📰<b> Media Group :</b> <i>{MEDIA_GROUP}</i>
 ┠📝<b> Leech Caption :</b> <code>{LCAPTION}</code>
 ┠🔄<b> Leech Prefix :</b> <code>{LPREFIX}</code>
-┠🔗<b> Leech Suffix :</b> <code>{LSUFFIX}</code>
+┠🔄<b> Leech Suffix :</b> <code>{LSUFFIX}</code>
 ┠📥<b> Leech Dumps :</b> <code>{LDUMP}</code>
 ┖🔄<b> Leech Remname :</b> <code>{LREMNAME}</code>'''
