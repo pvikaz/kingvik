@@ -86,20 +86,20 @@ class WZMLStyle:
 
 ⌬ <b>REMARKS :</b> <code>{remarks}</code>
     '''
-    BOT_LIMITS = '''⌬ <b><i>BOT LIMITATIONS :</i></b>
-┠🛑 <b>Direct Limit :</b> {DL} GB
-┠🌐 <b>Torrent Limit :</b> {TL} GB
-┠📂 <b>GDrive Limit :</b> {GL} GB
-┠📺 <b>YT-DLP Limit :</b> {YL} GB
-┠🎵 <b>Playlist Limit :</b> {PL}
-┠📦 <b>Mega Limit :</b> {ML} GB
-┠🔄 <b>Clone Limit :</b> {CL} GB
-┖🕵️ <b>Leech Limit :</b> {LL} GB
+    BOT_LIMITS = '''🛡️ <b><i>BOT LIMITATIONS :</i></b> 🛡️
+📥 <b>Direct Limit :</b> {DL} GB
+🧲 <b>Torrent Limit :</b> {TL} GB
+🏴‍☠️ <b>GDrive Limit :</b> {GL} GB
+♨️ <b>YT-DLP Limit :</b> {YL} GB
+🎵 <b>Playlist Limit :</b> {PL}
+📦 <b>Mega Limit :</b> {ML} GB
+🧬 <b>Clone Limit :</b> {CL} GB
+🦠 <b>Leech Limit :</b> {LL} GB
 
-┎🔐 <b>Token Validity :</b> {TV}
-┠⏰ <b>User Time Limit :</b> {UTI} / task
-┠🔄 <b>User Parallel Tasks :</b> {UT}
-┖🏋️‍♂️ <b>Bot Parallel Tasks :</b> {BT}
+⏳ <b>Token Validity :</b> {TV}
+⏰ <b>User Time Limit :</b> {UTI} / task
+🏎️ <b>User Parallel Tasks :</b> {UT}
+🏋️‍♂️ <b>Bot Parallel Tasks :</b> {BT}
     '''
     # ---------------------
 
