@@ -172,15 +172,15 @@ class WZMLStyle:
 
     #####---------PROGRESSIVE STATUS-------
     BAR =               '\n {Bar}'
-    PROCESSED =         '\n🌱 <b>Processed:</b> {Processed}'
+    PROCESSED =         '\n💫 <b>Processed:</b> {Processed}'
     STATUS =            '\n✨ <b>Status:</b> <a href="{Url}">{Status}</a>'
     ETA =                                                ' | ⏳ <b>ETA:</b> {Eta}'
     SPEED =             '\n🚀 <b>Speed:</b> {Speed}'
     ELAPSED =                                     ' | ⏰ <b>Elapsed:</b> {Elapsed}'
     ENGINE =            '\n⚡ <b>Engine:</b> {Engine}'
-    STA_MODE =          '\n🎮 <b>Mode:</b> {Mode}'
-    SEEDERS =           '\n📶 <b>Seeders:</b> {Seeders} | '
-    LEECHERS =                                           '<b>Leechers:</b> {Leechers}🕵️‍♂️'
+    STA_MODE =          '\n♨️ <b>Mode:</b> {Mode}'
+    SEEDERS =           '\n🌱 <b>Seeders:</b> {Seeders} | '
+    LEECHERS =                                           '<b>Leechers:</b> {Leechers}🦠'
 
     ####--------SEEDING----------
     SEED_SIZE =      '\n🌱 <b>Size: </b>{Size}'
@@ -201,15 +201,15 @@ class WZMLStyle:
     CANCEL =         '\n🚫 {Cancel}\n\n'
 
     ####------FOOTER--------
-    FOOTER = '📊 ⌬ <b><i>Bot Stats</i></b>\n'
+    FOOTER = '🌟 <b><i>Bot Stats</i></b>\n'
     TASKS =  '┠📋 <b>Tasks:</b> {Tasks}\n'
     BOT_TASKS = '┠📋 <b>Tasks:</b> {Tasks}/{Ttask} | <b>📊 AVL:</b> {Free}\n'
     Cpu = '💻 <b>CPU:</b> {cpu}%  '
-    FREE =                      '<b>💾 F:</b> {free} [{free_p}%]'
+    FREE =                      '| <b>💾 F:</b> {free} [{free_p}%]'
     Ram = '\n🧠 <b>RAM:</b> {ram}%  '
-    uptime =                     '<b>⏰ UPTIME:</b> {uptime}'
+    uptime =                     '| <b>⏰ UPTIME:</b> {uptime}'
     DL = '\n📥 <b>DL:</b> {DL}/s  '
-    UL =                        '<b>📤 UL:</b> {UL}/s'
+    UL =                        '| <b>📤 UL:</b> {UL}/s'
 
     ###--------BUTTONS-------
     PREVIOUS = '⏪'
@@ -218,7 +218,7 @@ class WZMLStyle:
     # ---------------------
 
     #STOP_DUPLICATE_MSG: ---> clone.py, aria2_listener.py, task_manager.py
-    STOP_DUPLICATE = '🔍 File/Folder is already available in Drive.\nHere are {content} list results:'
+    STOP_DUPLICATE = '♨️ File/Folder is already available in Drive.\nHere are {content} list results:'
     # ---------------------
 
     # async def countNode(_, message): ----> gd_count.py
@@ -232,7 +232,7 @@ class WZMLStyle:
     # ---------------------
 
     # LIST ---> gd_list.py
-    LIST_SEARCHING = '🔍 <b>Searching for <i>{NAME}</i></b>'
+    LIST_SEARCHING = '♨️ <b>Searching for <i>{NAME}</i></b>'
     LIST_FOUND = '📜 <b>Found {NO} result for <i>{NAME}</i></b>'
     LIST_NOT_FOUND = '❌ No result found for <i>{NAME}</i>'
     # ---------------------
