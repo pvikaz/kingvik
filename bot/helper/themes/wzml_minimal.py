@@ -58,31 +58,31 @@ class WZMLStyle:
 ┖ <b>U :</b> {disk_u} | <b>F :</b> {disk_f} | <b>T :</b> {disk_t}
     
     '''
-    SYS_STATS = '''⌬ <b><i>OS SYSTEM :</i></b>
-┠💻 <b>OS Uptime :</b> {os_uptime}
-┠🖥️ <b>OS Version :</b> {os_version}
-┖🛠️ <b>OS Arch :</b> {os_arch}
+    SYS_STATS = '''🖥️ <b><i>OS SYSTEM :</i></b>
+┠ <b>OS Uptime :</b> {os_uptime}
+┠ <b>OS Version :</b> {os_version}
+┖ <b>OS Arch :</b> {os_arch}
 
-⌬ <b><i>NETWORK STATS :</i></b>
-┠📤 <b>Upload Data:</b> {up_data}
-┠📥 <b>Download Data:</b> {dl_data}
-┠📩 <b>Pkts Sent:</b> {pkt_sent}k
-┠📨 <b>Pkts Received:</b> {pkt_recv}k
-┖📊 <b>Total I/O Data:</b> {tl_data}
+📊 <b><i>NETWORK STATS :</i></b>
+┠ <b>Upload Data:</b> {up_data}
+┠ <b>Download Data:</b> {dl_data}
+┠ <b>Pkts Sent:</b> {pkt_sent}k
+┠ <b>Pkts Received:</b> {pkt_recv}k
+┖ <b>Total I/O Data:</b> {tl_data}
 
-┎ <b>CPU :</b>
-┃⚙️ {cpu_bar} {cpu}%
-┠💨 <b>CPU Frequency :</b> {cpu_freq}
-┠🔄 <b>System Avg Load :</b> {sys_load}
-┠💻 <b>P-Core(s) :</b> {p_core} | <b>V-Core(s) :</b> {v_core}
-┠🏗️ <b>Total Core(s) :</b> {total_core}
-┖🔄 <b>Usable CPU(s) :</b> {cpu_use}
+🧠 <b>CPU :</b>
+┃ {cpu_bar} {cpu}%
+┠ <b>CPU Frequency :</b> {cpu_freq}
+┠ <b>System Avg Load :</b> {sys_load}
+┠ <b>P-Core(s) :</b> {p_core} | <b>V-Core(s) :</b> {v_core}
+┠ <b>Total Core(s) :</b> {total_core}
+┖ <b>Usable CPU(s) :</b> {cpu_use}
     '''
-    REPO_STATS = '''⌬ <b><i>REPO STATISTICS :</i></b>
-┠📝 <b>Bot Updated :</b> {last_commit}
-┠🔄 <b>Current Version :</b> {bot_version}
-┠🚀 <b>Latest Version :</b> {lat_version}
-┖📜 <b>Last ChangeLog :</b> {commit_details}
+    REPO_STATS = '''🏴‍☠️ <b><i>REPO STATISTICS :</i></b>
+┠ <b>Bot Updated :</b> {last_commit}
+┠ <b>Current Version :</b> {bot_version}
+┠ <b>Latest Version :</b> {lat_version}
+┖ <b>Last ChangeLog :</b> {commit_details}
 
 ⌬ <b>REMARKS :</b> <code>{remarks}</code>
     '''
