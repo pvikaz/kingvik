@@ -28,16 +28,14 @@ class WZMLStyle:
     LOGIN_USED = '🔐 <b>Bot Login Usage :</b>\n\n<code>/cmd [password]</code>'
     # ---------------------
     # async def log(_, message): ---> __main__.py
-    LOG_DISPLAY_BT = '📜 Log Display'
-    WEB_PASTE_BT = '🌐 Web Paste (SB)'
+    LOG_DISPLAY_BT = '📜 Log Display 📜'
+    WEB_PASTE_BT = '🌐 Web Paste (SB) 🌐'
     # ---------------------
     # async def bot_help(client, message): ---> __main__.py
-    BASIC_BT = 'Basic'
-    USER_BT = 'Users'
-    MICS_BT = 'Mics'
-    O_S_BT = 'Owner & Sudos'
-    CLOSE_BT = 'Close'
-    HELP_HEADER = "㊂ <b><i>Help Guide Menu!</i></b>\n\n<b>📚 NOTE: <i>Click on any CMD to see more minor detalis.</i></b>"
+    BASIC_BT = '🎭 Users 🎭'
+    O_S_BT = '☠ Owner ☠'
+    CLOSE_BT = '❌ Close ❌'
+    HELP_HEADER = "🏴‍☠️ <b><i>Help Guide Menu!</i></b>\n\n<b>📚 NOTE: <i>Click on below CMD to see more minor detalis.</i></b>"
 
     # async def stats(client, message):
     BOT_STATS = '''⌬⚙️ <b><i>BOT STATISTICS :</i></b>
