@@ -80,9 +80,6 @@ class WZMLStyle:
     '''
     REPO_STATS = '''🏴‍☠️ <b><i>REPO STATISTICS :</i></b>
 ┠ <b>Bot Updated :</b> {last_commit}
-┠ <b>Current Version :</b> {bot_version}
-┠ <b>Latest Version :</b> {lat_version}
-┖ <b>Last ChangeLog :</b> {commit_details}
 
 ⌬ <b>REMARKS :</b> <code>{remarks}</code>
     '''
@@ -96,10 +93,10 @@ class WZMLStyle:
 🧬 <b>Clone Limit :</b><code> {CL} GB </code>
 🦠 <b>Leech Limit :</b><code> {LL} GB </code>
 
-⏳ <b>Token Validity :</b> {TV}
-⏰ <b>User Time Limit :</b> {UTI} / task
-🏎️ <b>User Parallel Tasks :</b> {UT}
-🏋️‍♂️ <b>Bot Parallel Tasks :</b> {BT}
+⏳ <b>Token Validity :</b><code> {TV} </code>
+⏰ <b>User Time Limit :</b><code> {UTI} / task </code>
+🏎️ <b>User Parallel Tasks :</b><code> {UT} </code>
+🏋️‍♂️ <b>Bot Parallel Tasks :</b><code> {BT} </code>
     '''
     # ---------------------
 
@@ -179,9 +176,9 @@ class WZMLStyle:
     BAR =               '\n {Bar}'
     PROCESSED =         '\n🌱 <b>Processed:</b> {Processed}'
     STATUS =            '\n✨ <b>Status:</b> <a href="{Url}">{Status}</a>'
-    ETA =                                                '⏳ <b>ETA:</b> {Eta}'
+    ETA =                                                ' | ⏳ <b>ETA:</b> {Eta}'
     SPEED =             '\n🚀 <b>Speed:</b> {Speed}'
-    ELAPSED =                                     '⏰ <b>Elapsed:</b> {Elapsed}'
+    ELAPSED =                                     ' | ⏰ <b>Elapsed:</b> {Elapsed}'
     ENGINE =            '\n⚡ <b>Engine:</b> {Engine}'
     STA_MODE =          '\n🎮 <b>Mode:</b> {Mode}'
     SEEDERS =           '\n📶 <b>Seeders:</b> {Seeders} | '
