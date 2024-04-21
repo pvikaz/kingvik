@@ -205,18 +205,18 @@ class WZMLStyle:
     ####------FOOTER--------
     FOOTER = '🌟 <b><i>Bot Stats</i></b>\n'
     TASKS =  '📋 <b>Tasks:</b> {Tasks}\n'
-    BOT_TASKS = '📋 <b>Tasks:</b> {Tasks}/{Ttask} | <b>📊 AVL:</b> {Free}\n'
-    Cpu = '💻 <b>CPU:</b> {cpu}%  '
+    BOT_TASKS = '📊 <b>Tasks:</b> {Tasks}/{Ttask} | <b>🎉 AVL:</b> {Free}\n'
+    Cpu = '🧠 <b>CPU:</b> {cpu}%  '
     FREE =                      '| <b>💾 F:</b> {free} [{free_p}%]'
-    Ram = '\n🧠 <b>RAM:</b> {ram}%  '
+    Ram = '\n🎭 <b>RAM:</b> {ram}%  '
     uptime =                     '| <b>⏰ UPTIME:</b> {uptime}'
     DL = '\n📥 <b>DL:</b> {DL}/s  '
     UL =                        '| <b>📤 UL:</b> {UL}/s'
 
     ###--------BUTTONS-------
-    PREVIOUS = '⏪'
+    PREVIOUS = '⏮'
     REFRESH = 'ᴘᴀɢᴇs\n{Page}'
-    NEXT = '⏩'
+    NEXT = '⏭'
     # ---------------------
 
     #STOP_DUPLICATE_MSG: ---> clone.py, aria2_listener.py, task_manager.py
