@@ -197,7 +197,7 @@ class WZMLStyle:
     NON_ENGINE =     '\n🚀 <b>Engine:</b> {Engine}'
 
     ####--------OVERALL MSG FOOTER----------
-    USER =              '\n☃️ <b>User:</b> <code>{User}</code> | '
+    USER =              '\n🎭 <b>User:</b> <code>{User}</code> | '
     ID =                                                        '🔑 <b>ID:</b> <code>{Id}</code>'
     BTSEL =          '\n🎯 <b>Select:</b> {Btsel}'
     CANCEL =         '\n🚫 {Cancel}\n\n'
@@ -208,7 +208,7 @@ class WZMLStyle:
     BOT_TASKS = '📊 <b>Tasks:</b> {Tasks}/{Ttask} | <b>🎉 AVL:</b> {Free}\n'
     Cpu = '🧠 <b>CPU:</b> {cpu}%  '
     FREE =                      '| <b>💾 F:</b> {free} [{free_p}%]'
-    Ram = '\n🎭 <b>RAM:</b> {ram}%  '
+    Ram = '\n☃️ <b>RAM:</b> {ram}%  '
     uptime =                     '| <b>⏰ UPTIME:</b> {uptime}'
     DL = '\n📥 <b>DL:</b> {DL}/s  '
     UL =                        '| <b>📤 UL:</b> {UL}/s'
