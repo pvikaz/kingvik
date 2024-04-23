@@ -176,9 +176,9 @@ class WZMLStyle:
     BAR =               '\n {Bar}'
     PROCESSED =         '\n💫 <b>Processed:</b> {Processed}'
     STATUS =            '\n✨ <b>Status:</b> <a href="{Url}">{Status}</a>'
-    ETA =                                                ' | ⏳ <b>ETA:</b> {Eta}'
+    ETA =                                                ' | ⏰ <b>ETA:</b> {Eta}'
     SPEED =             '\n🚀 <b>Speed:</b> {Speed}'
-    ELAPSED =                                     ' | ⏰ <b>Elapsed:</b> {Elapsed}'
+    ELAPSED =                                     ' | ⏳ <b>TT:</b> {Elapsed}'
     ENGINE =            '\n⚡ <b>Engine:</b> {Engine}'
     STA_MODE =          '\n♨️ <b>Mode:</b> {Mode}'
     SEEDERS =           '\n🌱 <b>Seeders:</b> {Seeders} | '
@@ -207,9 +207,9 @@ class WZMLStyle:
     TASKS =  '📋 <b>Tasks:</b> {Tasks}\n'
     BOT_TASKS = '📊 <b>Tasks:</b> {Tasks}/{Ttask} | <b>🎉 AVL:</b> {Free}\n'
     Cpu = '🧠 <b>CPU:</b> {cpu}%  '
-    FREE =                      '| <b>💾 F:</b> {free} [{free_p}%]'
+    FREE =                      '| <b>☠ F:</b> {free}'
     Ram = '\n☃️ <b>RAM:</b> {ram}%  '
-    uptime =                     '| <b>⏰ UPTIME:</b> {uptime}'
+    uptime =                     '| <b>🚀 UP:</b> {uptime}'
     DL = '\n📥 <b>DL:</b> {DL}/s  '
     UL =                        '| <b>📤 UL:</b> {UL}/s'
 
@@ -243,8 +243,8 @@ class WZMLStyle:
     NO_ACTIVE_DL = '''<i>No Active Downloads!</i>
     
 🛡️ <b><i>Bot Stats</i></b>
-🧠 <b>CPU:</b> {cpu}% | <b>🚀 F:</b> {free} [{free_p}%]
-💾 <b>RAM:</b> {ram} | <b>⏰ UPTIME:</b> {uptime}
+🧠 <b>CPU:</b> {cpu}% | <b>☠ F:</b> {free}
+☃️ <b>RAM:</b> {ram} | <b>🚀 UP:</b> {uptime}
     '''
     # ---------------------
 
