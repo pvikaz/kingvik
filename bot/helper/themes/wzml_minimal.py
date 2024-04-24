@@ -176,12 +176,12 @@ class WZMLStyle:
     BAR =               '\n {Bar}'
     PROCESSED =         '\n💫 {Processed}'
     STATUS =            '\n✨ <a href="{Url}">{Status}</a>'
-    ETA =                                                ' | ⏰ {Eta}'
+    ETA =                                                ' - {Eta}'
     SPEED =             '\n🚀 {Speed}'
-    ELAPSED =                                     ' | ⏳ {Elapsed}'
+    ELAPSED =                                     ' - {Elapsed}'
     ENGINE =            '\n⚡ {Engine}'
     STA_MODE =          '\n♨️ {Mode}'
-    SEEDERS =           '\n🌱 {Seeders} | '
+    SEEDERS =           '\n🌱 {Seeders} / '
     LEECHERS =                                           '🦠 {Leechers} '
 
     ####--------SEEDING----------
@@ -197,8 +197,8 @@ class WZMLStyle:
     NON_ENGINE =     '\n🚀 <b>Engine:</b> {Engine}'
 
     ####--------OVERALL MSG FOOTER----------
-    USER =              '\n🎭 <code>{User}</code> | '
-    ID =                                                        '🔑 <code>{Id}</code>'
+    USER =              '\n🎭 <code>{User}</code> '
+    ID =                                                        '- <code>{Id}</code>'
     BTSEL =          '\n🎯 {Btsel}'
     CANCEL =         '\n🚫 {Cancel}\n\n'
 
