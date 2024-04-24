@@ -3,8 +3,8 @@ from bot import CMD_SUFFIX, config_dict
 
 class _BotCommands:
     def __init__(self):
-        self.StartCommand = 'start'
-        self.MirrorCommand = [f'mirror{CMD_SUFFIX}', f'm{CMD_SUFFIX}']
+        self.StartCommand = 'start1'
+        self.MirrorCommand = [f'mirror1{CMD_SUFFIX}', f'm1{CMD_SUFFIX}']
         self.QbMirrorCommand = [f'qbmirror{CMD_SUFFIX}', f'qm{CMD_SUFFIX}']
         self.YtdlCommand = [f'ytdl{CMD_SUFFIX}', f'y{CMD_SUFFIX}']
         self.LeechCommand = [f'leech{CMD_SUFFIX}', f'l{CMD_SUFFIX}']
