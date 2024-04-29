@@ -3,7 +3,7 @@ from bot import CMD_SUFFIX, config_dict
 
 class _BotCommands:
     def __init__(self):
-        self.StartCommand = 'start1'
+        self.StartCommand = 'start'
         self.MirrorCommand = [f'mirror1{CMD_SUFFIX}', f'm1{CMD_SUFFIX}']
         self.QbMirrorCommand = [f'qbmirror1{CMD_SUFFIX}', f'qm1{CMD_SUFFIX}']
         self.YtdlCommand = [f'ytdl1{CMD_SUFFIX}', f'y1{CMD_SUFFIX}']
