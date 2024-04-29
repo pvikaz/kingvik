@@ -179,8 +179,8 @@ class WZMLStyle:
     ETA =                                                ' | ⏰ <b>ETA:</b> {Eta}'
     SPEED =             '\n🚀 <b>Speed:</b> {Speed}'
     ELAPSED =                                     ' | ⏳ <b>TT:</b> {Elapsed}'
-    ENGINE =            '\n♨️ <b>Engine:</b> {Engine}'
-    STA_MODE =          '\n⚡ <b>Mode:</b> {Mode}'
+    ENGINE =            '\n⚡ <b>Engine:</b> {Engine}'
+    STA_MODE =          '\n❄ <b>Mode:</b> {Mode}'
     SEEDERS =           '\n🌱 <b>Seeders:</b> {Seeders} | '
     LEECHERS =                                           '<b>Leechers:</b> {Leechers} 🦠'
 
